@@ -7,19 +7,91 @@ ul{
 	right: 0;
 }
 li{display: inline;
-	float: left;
+	float: right;
 	color: black;
 	margin: 5px;
 	padding: 5px;
 }
+.fondo{ background-image: url('../img/architect.jpg');
+background-size: 100% 100%;
+width: 100%;
+height: 500px;
 
-.principal{
-	width: 100%
+
+}
+.imagenes1{
+background-image: url('../img/house5.jpg');
+background-size: 90% 90%;
+background-repeat: no-repeat;
+height: 250px;
 }
 
-.imagenes{
+.imagenes2{
+background-image: url('../img/house2.jpg');
+background-size: 90% 90%;
+background-repeat: no-repeat;
+height: 250px;
+}
+.imagenes3{
+background-image: url('../img/house3.jpg');
+background-size: 90% 90%;
+background-repeat: no-repeat;
+height: 250px;
+}
+.imagenes2{
+background-image: url('../img/house4.jpg');
+background-size: 90% 90%;
+background-repeat: no-repeat;
+height: 250px;
+}
+
+.fondonegro{
+	position: absolute;
+
+	background-color: black;
+	color:white;
+	padding: 2%;
+}
+h1{
+	margin: 20px;
+}
+hr{
+	margin: 20px;
 	width: 100%;
-	height: 100%;
-	background-repeat: no-repeat; 
+	height: 10px;
+
 
 }
+
+.team1, .team2, .team3, .team4{width: 90%;
+}
+
+.equipo{
+	margin: 25px;
+}
+button{
+	width: 100%;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+input{
+	width: 100%;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#btn{
+	width: 25%;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background-color: black;
+	color: white;
+
+}
+
+
+
